@@ -15,10 +15,10 @@ weather: "haze",
 let updateInfo = (newInfo) =>
     setWeatherInfo(newInfo);
 return (
-<div style={{ textAlign: "center" }}> <h2>Weather App </h2>
+<div style={{ textAlign: "center", width: "100%"}}> <h2>Weather App </h2>
  <SearchBox updateInfo={updateInfo} /> 
  <InfoBox info={weatherInfo} />
 </div>
 );
-I
+
 }

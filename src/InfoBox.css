@@ -1,0 +1,21 @@
+.Infobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5); /* Add a transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
